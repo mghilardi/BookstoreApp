@@ -1,0 +1,15 @@
+.book {
+  border: 1px solid #212529;
+  border-radius: 8px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 8px;
+  padding-bottom: 8px;
+}
+
+.book img {
+  width: 150px;
+}

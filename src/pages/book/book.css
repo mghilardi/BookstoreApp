@@ -1,0 +1,60 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.book-form {
+  max-width: 500px;
+  margin: 0px auto;
+
+  padding: 15px 15px 15px 15px;
+  background-color: #ffffff;
+}
+
+.form-label {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.add-btn {
+  float: right;
+}
+
+.add-btn:hover {
+  .icon {
+    color: #fff;
+  }
+}
+
+.submit-btn {
+  border-radius: 8px;
+  width: 65%;
+  margin-top: 15px;
+  border: 0px !important;
+  margin-right: 5%;
+}
+
+.reset-btn {
+  border-radius: 8px;
+  width: 30%;
+  margin-top: 15px;
+  border: 0px !important;
+  margin: 1;
+}
+
+.heading {
+  padding: 0px 0px 15px 0px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.heading p {
+  font-size: 15px !important;
+  font-weight: 700;
+}
+
+.icon {
+  padding-left: 8px;
+  background-color: unset;
+  cursor: pointer;
+  color: #212529;
+}

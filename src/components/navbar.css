@@ -1,0 +1,30 @@
+.links {
+  margin-left: 30px;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.links a {
+  text-decoration: none;
+  color: #212529;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+a:hover {
+  color: #555df9;
+}
+
+.logo {
+  height: 2em;
+  padding: 0.1em;
+  will-change: filter;
+  transition: filter 300ms;
+  fill: cadetblue;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 1em #555df9);
+}
