@@ -23,7 +23,6 @@ dist-ssr
 *.sln
 *.sw?
 
-/src/assets
 /src/Flag.jsx
 /src/App copy.jsx
 /package-lock.json
