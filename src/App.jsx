@@ -1,23 +1,19 @@
-import { useState } from "react";
-import bookLogo from "/book.svg";
 import "./App.css";
+import Navbar from "./components/navbar";
+import { ShopContextProvider } from "./context/ShopContext";
+import ApplicationRoutes from "./routes/ApplicationRoutes";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
-  const [count, setCount] = useState(10);
-
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={bookLogo} className="logo" alt="Vite logo" />
-        </a>
-      </div>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-      </div>
-    </>
+    <div className="App">
+      <Navbar />
+      <ShopContextProvider>
+        <ApplicationRoutes />
+        <ToastContainer />
+      </ShopContextProvider>
+    </div>
   );
 }
 
