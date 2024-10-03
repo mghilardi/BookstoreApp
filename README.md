@@ -1,6 +1,17 @@
 # Bookstore app
 
-To start the app, in the project directory, you can run:
+## Requirements
+
+For building and running the application you need:
+
+- NodeJS 20.x
+- npm 10.x
+
+### To install and set up the library, run::
+
+#### `npm install`
+
+### To start the app, run:
 
 #### `npm run dev`
 
